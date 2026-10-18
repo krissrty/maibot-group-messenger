@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+  "id": "krissrty.group-messenger",
+  "version": "1.0.0",
+  "name": "跨聊天群消息工具",
+  "description": "允许麦麦在私聊中按用户要求向指定QQ群发送普通文字，支持群名查询和发送结果校验。",
+  "author": {
+    "name": "krissrty",
+    "url": "https://github.com/krissrty"
+  },
+  "license": "MIT",
+  "host_application": {
+    "min_version": "1.2.5",
+    "max_version": "1.99.99"
+  },
+  "sdk": {
+    "min_version": "2.6.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [],
+  "capabilities": [
+    "api.call"
+  ],
+  "plugin_type": "tool",
+  "display": {
+    "icon": {
+      "type": "emoji",
+      "value": "📨"
+    }
+  },
+  "urls": {
+    "repository": "https://github.com/krissrty/maibot-group-messenger",
+    "homepage": "https://github.com/krissrty/maibot-group-messenger",
+    "documentation": "https://github.com/krissrty/maibot-group-messenger#readme",
+    "issues": "https://github.com/krissrty/maibot-group-messenger/issues"
+  },
+  "i18n": {
+    "default_locale": "zh-CN"
+  }
+}
